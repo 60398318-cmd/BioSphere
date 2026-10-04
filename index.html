@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioSphere Jauja - Conservación & Botánica Integral</title>
+    
+    <!-- Fuentes e Íconos -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Hoja de Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Navegación Principal -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="brand">
+                <i class="fa-solid fa-leaf brand-icon"></i>
+                <span class="brand-name">BioSphere <small>Jauja</small></span>
+            </a>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <header class="hero-section" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge"><i class="fa-solid fa-seedling"></i> Empresa Verde Local 2026</span>
+            <h1 class="hero-title">Naturaleza viva, brillante y consciente para tus espacios</h1>
+            <p class="hero-subtitle">
+                Especialistas en paisajismo corporativo, diseño de jardines, venta de plantas ornamentales y conservación activa de especies vulnerables en Jauja.
+            </p>
+            <div class="hero-actions">
+                <a href="#contacto" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Cotizar Proyecto</a>
+                <a href="#servicios" class="btn btn-outline"><i class="fa-solid fa-list-check"></i> Ver Servicios</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Nosotros -->
+    <section class="section-padding" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre BioSphere Jauja</h2>
+                <div class="underline"></div>
+                <p>Nacimos del deseo de llenar de vida y color nuestros entornos con plantas brillantes que inspiran y transforman.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="img/nosotros.jpg" alt="Vivero y equipo BioSphere Jauja">
+                </div>
+                <div class="about-info">
+                    <h3>Nuestra Historia & Compromiso</h3>
+                    <p>
+                        Creemos fielmente que las plantas viven para acompañarnos, pero lamentablemente muchas mueren por falta de información. En <strong>BioSphere Jauja</strong> combinamos la pasión por el diseño vegetal con la responsabilidad ecológica, promoviendo el rescate y cuidado de especies vulnerables y en riesgo de extinción.
+                    </p>
+                    
+                    <div class="mision-vision-grid">
+                        <div class="card-mv">
+                            <i class="fa-solid fa-bullseye card-icon"></i>
+                            <h4>Misión</h4>
+                            <p>Transformar espacios urbanos y corporativos integrando soluciones botánicas sostenibles y fomentando la conciencia ambiental.</p>
+                        </div>
+                        <div class="card-mv">
+                            <i class="fa-solid fa-eye card-icon"></i>
+                            <h4>Visión</h4>
+                            <p>Ser la empresa líder en la región en paisajismo ecológico, preservación botánica y diseño de interiores verdes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section class="section-padding bg-light" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicios & Catálogo Botánico</h2>
+                <div class="underline"></div>
+                <p>Soluciones integrales para hogares, empresas e instituciones en Jauja y alrededores.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/servicio1.jpg" alt="Plantas de Interior">
+                    </div>
+                    <div class="service-body">
+                        <h3>Plantas de Interior y Exterior</h3>
+                        <p>Especies ornamentales, suculentas y árboles de maceta cuidadosamente nutridos para alta durabilidad.</p>
+                        <a href="#contacto" class="service-link">Consultar Catálogo <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/servicio2.jpg" alt="Paisajismo Corporativo">
+                    </div>
+                    <div class="service-body">
+                        <h3>Paisajismo & Jardines Verticales</h3>
+                        <p>Diseño e instalación de áreas verdes en oficinas, hoteles, restaurantes y proyectos residenciales.</p>
+                        <a href="#contacto" class="service-link">Solicitar Diseño <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/servicio3.jpg" alt="Conservación Botánica">
+                    </div>
+                    <div class="service-body">
+                        <h3>Programa de Conservación</h3>
+                        <p>Asesoría especializada, tratamiento de plagas y difusión sobre el cuidado de flora autóctona vulnerable.</p>
+                        <a href="#contacto" class="service-link">Más Información <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section class="section-padding" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galería de Proyectos</h2>
+                <div class="underline"></div>
+                <p>Una muestra de nuestro trabajo de conservación, diseño y selección de plantas.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/hero.jpg" alt="Jardines Corporativos">
+                    <div class="gallery-overlay"><span>Jardines Corporativos</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/nosotros.jpg" alt="Vivero BioSphere">
+                    <div class="gallery-overlay"><span>Nuestro Vivero</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/servicio1.jpg" alt="Macetas de Diseño">
+                    <div class="gallery-overlay"><span>Macetas de Diseño</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="section-padding bg-light" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ponte en Contacto</h2>
+                <div class="underline"></div>
+                <p>Escríbenos para asesorías, cotizaciones o visitas técnicas a tu espacio.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Ubicación Principal</h4>
+                            <p>Jr. Colina, Jauja - Perú</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Teléfono / WhatsApp</h4>
+                            <p>+51 9xx 004 xxx</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Correo Electrónico</h4>
+                            <p>contacto.empresa@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-share-nodes"></i>
+                        <div>
+                            <h4>Redes Sociales</h4>
+                            <p>Instagram: @7layjk | Facebook: BioSphere Jauja</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" class="form-control" placeholder="Ej. Ana Torres" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" class="form-control" placeholder="nombre@correo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje o Solicitud</label>
+                        <textarea id="mensaje" class="form-control" rows="4" placeholder="¿En qué servicio estás interesado?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                    <div id="formResponse" class="form-response"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 BioSphere Jauja. Todos los derechos reservados.</p>
+            <p><small>Docente: Sandra Chávez Huamanchumo</small></p>
+        </div>
+    </footer>
+
+    <!-- Archivo JS -->
+    <script src="js/codigo.js"></script>
+</body>
+</html>
